@@ -1,0 +1,50 @@
+.searchBar {
+    align-items: flex-end;
+}
+
+.contentbuy {
+    display: flex;
+    flex-flow: row nowrap;
+    padding-top: 50px;
+}
+
+.menu {
+    flex: 1 0 275px;
+    padding: 20px;
+}
+
+.items {
+    padding: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    flex-grow: 1;
+}
+
+.results{
+    display:flex;
+    justify-content: space-between;
+}
+
+.number{
+    padding-top: 16px;
+}
+
+.footer {
+    display:flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pagination {
+    background-color: #103D62;
+    color: #2A85D8;
+}
+
+.clear{
+    align-self: center;
+    background-color: #103D62;
+    color: #FFEC33;
+}
+
+
